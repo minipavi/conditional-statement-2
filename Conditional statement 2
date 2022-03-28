@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main(){
+    int num,num1,num2,num3,num4,num5;
+    printf("The number you want to enter;");
+    scanf("%d",&num);
+    if (num==1){
+       print("Food item = Pizza"
+      "/n Price -Rs 239");
+    }
+    else if (num ==2);{
+       print ("Food item =Burger"
+       "/n Price-Rs 129");
+    }
+    else if (num ==3);{
+       print ("Food item =Pasta"
+       "/n Price-Rs 179");
+    }
+    else if (num ==4);{
+       print ("Food item =French fries"
+       "/n Price-Rs 99");
+    }
+    else if (num ==5);{
+       print ("Food item =Sandwich"
+      "/n Price-Rs 149");
+    }
+    return 0;
+}
